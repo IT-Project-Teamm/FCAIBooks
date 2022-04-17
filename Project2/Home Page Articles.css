@@ -1,0 +1,171 @@
+.header ul a{
+    text-decoration: none;
+  padding: 20px;
+  color: white;
+  transition: 0.3s;
+  top: 5px;
+  margin-top: 100px;
+  
+  }
+  .header ul a:hover{
+    transition: 0.2s;
+    color:#bf1b2c;
+    z-index: 2;
+  
+  }
+  .header ul    {
+    position: absolute;
+    right:20px;
+    top: 27px;
+    display: inline-flex;
+    padding: 5px;
+    margin: 3px;
+    list-style: none;
+    font-size: 28px;
+    text-align: justify;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+  }
+  .header
+  {
+   position: relative;
+    min-height: 102px;
+    width:  100%;
+    background-color: black;
+    box sizing: border-box;
+    display: flex;
+    
+  }
+  
+  .header i {
+    color: white;
+      font-size: 51px;
+      position: absolute;
+      left: 36px;
+      top: 11px;
+  }
+  .f1 p
+  { text-align: right;
+    direction: rtl;
+  }
+  .f1{
+    position: absolute;
+    right:45px;
+    top: 120px;
+  }
+  .f1 img
+  {
+    max-width: 142px;
+    margin:5px;
+    position: relative;
+    right: 0;
+    background-color: burlywood;
+    background-size: 115PX;
+  }
+  *{ 
+    margin:0;
+    border: 0;
+  
+    }
+    .f1 a{
+      display: block;
+      color:black;
+    }
+    .f1 a:hover{
+      color:red;
+      font-size: x-large;
+    }
+    .f1 a span {
+      position: absolute;
+      right:13px;
+    }
+    .footer {
+    display:flex;
+    width:100%;
+    height:150px;
+    flex-direction:row;
+    background-color:#131a22;
+    position:relative;
+    top:1000px;
+    bottom:0;
+    font-family: Trebuchet MS;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    .about {
+        left: 10px;
+        bottom: 10px;
+        position: absolute;
+        font-size: 16pt;
+    }
+    .contact {
+        right:10px;
+        bottom:10px;
+        position: absolute;
+        font-size: 16pt;
+    }
+    .rights {
+        bottom:60px;
+        left: 43%;
+        color:white;
+        position: absolute;
+    }
+    .logo {
+        position: absolute;
+        z-index: 5;
+        width: 130px;
+        height: 100px;
+        top:0px;
+        left:20px;
+        cursor: pointer;
+    }
+  a:hover {
+   text-decoration: underline;
+  }
+  #top10 {
+      font-size: 20px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-weight: bold;
+      color:black;
+      margin: 50px;
+  }
+ .search
+ {
+    position: absolute;
+    width: 700px;
+    right:400px;
+    top:-14px;
+    background: rgba(255,255,255,0.2);
+    display: flex;
+    align-items: center ;
+    border-radius: 60px;
+    padding: 10px 20px;
+    height: 50px;
+ }
+.search input {
+  background: transparent;
+  flex: 1;
+  border:0;
+  outline: none;
+  padding: 24px 20px;
+  font-size: 20px;
+  color: white;
+}
+::placeholder {
+  color: white;
+}
+.search button img {
+  width: 110px;
+  position: relative;
+  right: 31px;
+  top: -1px;
+}
+.search button {
+border: 0ch;
+border-radius: 50%;
+width: 60px;
+height: 60px;
+cursor: pointer;
+}

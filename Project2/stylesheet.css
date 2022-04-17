@@ -1,0 +1,129 @@
+.header ul a{
+  text-decoration: none;
+padding: 20px;
+color: white;
+transition: 0.3s;
+top: 5px;
+margin-top: 100px;
+
+}
+.header ul a:hover{
+  background-color: white;
+  transition: 0.2s;
+  padding-bottom :27px;
+  border: 2px solid rgb(34, 116, 71);
+  color:black;
+  border-radius: 3px;
+  z-index: 2;
+
+}
+.header ul    {
+  position: absolute;
+  right: 8px;
+  top: 13px;
+  display: inline-flex;
+  padding: 5px;
+  margin: 3px;
+  list-style: none;
+  font-size: 20px;
+  text-align: center;
+ 
+}
+.header
+{
+ position: relative;
+  min-height: 70px;
+  min-width:  100%;
+  background-color: mediumseagreen;
+  box sizing: border-box;
+  margin-top: 80px;
+  display: flex;
+}
+
+.header i {
+  color: white;
+    font-size: 51px;
+    position: absolute;
+    left: 36px;
+    top: 11px;
+}
+.f1 p
+{ text-align: right;
+  direction: rtl;
+}
+.f1{
+  position: absolute;
+  right:45px;
+  top: 120px;
+}
+.f1 img
+{
+  max-width: 142px;
+  margin:5px;
+  position: relative;
+  right: 0;
+  background-color: burlywood;
+  background-size: 115PX;
+}
+*{ 
+  margin:0;
+  border: 0;
+
+  }
+  .f1 a{
+    display: block;
+    color:black;
+  }
+  .f1 a:hover{
+    color:red;
+    font-size: x-large;
+  }
+  .f1 a span {
+    position: absolute;
+    right:13px;
+  }
+  .footer {
+  display:flex;
+  width:100%;
+  height:150px;
+  flex-direction:row;
+  background-color:#131a22;
+  position:relative;
+  top:1000px;
+  bottom:0;
+  font-family: Trebuchet MS;
+  }
+  a {
+      color: white;
+      text-decoration: none;
+  }
+  .about {
+      left: 10px;
+      bottom: 10px;
+      position: absolute;
+      font-size: 16pt;
+  }
+  .contact {
+      right:10px;
+      bottom:10px;
+      position: absolute;
+      font-size: 16pt;
+  }
+  .rights {
+      bottom:60px;
+      left: 43%;
+      color:white;
+      position: absolute;
+  }
+  .logo {
+      position: absolute;
+      z-index: 5;
+      width: 200px;
+      height: 100px;
+      top:-9px;
+      left:630px;
+      cursor: pointer;
+  }
+a:hover {
+ text-decoration: underline;
+}
